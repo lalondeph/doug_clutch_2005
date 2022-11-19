@@ -1,0 +1,132 @@
+<!doctype html>
+<!--Daniel Philip Lalonde-->
+<html lang="en">
+<head>
+<title>Contact - Doug Clutch Art</title>
+<meta charset="UTF-8">
+<link rel ="stylesheet" type = "text/css" href = "./css/external.css" />
+<script src ="./javascript/external.js"></script>
+</head>
+<body onload = "todaysDate()">
+<div class=heading>
+	<h1>Doug Clutch Art</h1>
+	<h2>Contact Doug Clutch</h2>
+</div>
+
+<div class=navflexcontainer>
+	<div class="navflexitem">
+		<a href="index.html" title="Home">Home</a>
+	</div>
+	<div class="navflexitem">
+		<a href="tablePage.html" title="Pricing">Price Table</a>
+	</div>
+	<div class="navflexitem">
+		<a href="images.html" title="Gallery">Gallery</a>
+	</div>
+	<div class="navflexitem">
+		<a href="Form.html" title="Contact">Contact</a>
+	</div>
+	<div class="spaceflexitem">
+		&nbsp;
+	</div>
+	<div class="socialflexitem">
+		<a target=_blank href="https://www.facebook.com" title="Facebook"><img src ="./imgs/social/fb.png" 
+		height="20" width="20" alt="Facebook"/></a>
+	</div>
+	<div class="socialflexitem">
+		<a target=_blank href="https://www.twitter.com" title="Twitter"><img src ="./imgs/social/tt.png" height="20" width="20" alt="Twitter"/></a>
+	</div>
+</div>
+<div class=center>
+	<h3>Join our mailing list.</h3>
+</div>
+<div class=maincontainer>
+	<form action="form.html">		
+		<fieldset>
+		<legend>Address</legend>
+		<p>
+			<label>Country</label>
+			<select id= "Country" size="1" required>
+				<option value="" selected disabled>Select Country...</option>
+				<option value="Australia">Australia</option>
+				<option value="Brazil">Brazil</option>
+				<option value="Canada">Canada</option>
+				<option value="French Polynesia">French Polynesia</option>
+				<option value="Hong Kong">Hong Kong</option>
+				<option value="Japan">Japan</option>
+				<option value="Mexico">Mexico</option>
+				<option value="New Zealand">New Zealand</option>
+				<option value="Russian Federation">Russian 
+				<option value="Spain">Spain</option>
+				<option value="Switzerland">Switzerland</option>
+				<option value="United Arab Emirates">United Arab Emirates</option>
+				<option value="United Kingdom">United Kingdom</option>
+				<option value="United States">United States</option>
+				<option value="Zimbabwe">Zimbabwe</option>
+			</select>
+		</p>
+		<p>
+			<label>Full Name</label>
+			<input type = "text" id = "Name" size = "30" required/>
+		</p>
+		<p>
+			<label> Street Address 1</label>
+			<input type = "text" id = "AddressLine1" placeholder ="Street number and name" size = "30"
+			required/>
+		</p>
+		<p>
+			<label> Street Address 2</label>
+			<input type = "text" id = "AddressLine2" placeholder ="Building, floor, unit etc." size = "30">
+		</p>
+		<p>
+			<label>City</label>
+			<input type = "text" id = "City" size = "30" required/>
+		</p>
+		<p>
+			<label>Provice / State</label>
+			<input type = "text" id = "Province/State" size = "30" required/>
+		</p>
+				<p>
+			<label>Postal Code</label>
+			<input type = "text" id = "PostalCode" size = "6" required/>
+		</p>
+		<p>
+			<label>Phone number</label>
+			<input type = "text" id = "PhoneNumber" size = "15"/>
+		</p>
+		</fieldset>
+
+		<fieldset>
+		<legend>Comments</legend>
+		<p>
+			<label>Share your thoughts with the artist</label>
+			<textarea id="Referral" rows="10" cols="20" maxlength="100"></textarea>
+		</p>
+		<p>
+			<label>Rate our site</label>
+
+			Bad <input type = "radio" name="rating" value = "bad"/> /
+			
+			Neutral <input type = "radio" name="rating" value = "neutral"/> / 
+	
+			 Good <input type = "radio" name="rating" value = "good"/>
+		</p>
+		
+		<p>
+			Send me updates! <input type = "checkbox" id="updates" checked/>
+		</p>
+		<p>
+			Sell my info! <input type = "checkbox" id="release" checked/>
+		</p>
+		<p>
+			I'm happy <input type = "checkbox" id="happiness"/>
+		</p>
+		</fieldset>
+		<button>Submit Form</button>
+	</form>
+</div>
+<div class=footercontainer>
+<footer>Management: <a href="mailto:daniel.lalonde2@student.sl.on.ca">daniel.lalonde2@student.sl.on.ca</a>. &copy;2005 <span class="doug">Doug Clutch </span><span id="showDate"></span></footer>
+</div>
+</body>
+</html>

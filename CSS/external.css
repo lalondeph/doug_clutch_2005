@@ -1,0 +1,232 @@
+/*Daniel Philip lalonde*/
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+/* Box-sizing border-box */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body 
+{
+	font-family: "helvetica","arial","serif";
+	font-size: 1.0em;
+	color: #e7e7e3;
+	background-color: #b08495;
+}
+a:link
+{
+	color: #502D00;
+}
+a:visited
+{
+	color: #002350;
+}
+a:hover
+{
+	color: #50004B;
+	opacity:0.5;
+}
+H1
+{
+	font-size:2.0em;
+	color: #EDDF00;
+}
+H2
+{
+	font-size:1.5em;
+	color: #EEE9A3;
+}
+H3
+{
+	font-size: 1.25em;
+	color: #E3e0ca;
+}
+
+ol
+{ 
+	list-style-type: upper-alpha;
+}
+
+ul
+{
+	list-style-type: disc;
+}
+
+table
+{
+	border-collapse: collapse;
+	background-color: #F0F0F0;
+	width: 80%;
+	margin: auto;
+	color: #199999;
+	text-align: center;
+	border: 0.3em solid #fffff0;
+
+}
+
+table, th, td
+{
+	border: 0.3em solid #fffff0;
+}
+
+button
+{
+	margin: 1.0em;
+	border-radius: .1em;
+}
+
+figurecaption
+{
+	font-size: 1.5em;
+}
+figure
+{
+	text-align: center;
+}
+form
+{
+	text-align: center;	
+}
+input[type="text"], input[type="password"], select, textarea
+{
+	display: inline-block;
+	width: 30%;
+	margin-left: 0.5em;
+	/*background-color:lightgreen;*/
+}
+label
+{
+	text-align:left;
+	display: inline-block;
+	width: 20%;
+	font-weight: bold;
+	margin-right:0.5em;
+}
+fieldset
+{
+	margin-bottom:1em;
+}
+textarea
+{
+	max-width: 60%;
+	max-height: 20em;	
+}
+.doug
+{
+	font-style: italic;
+	color:#66ffff;
+}
+.heading
+{
+	text-align: center;
+	background-color: #CEB2BD;
+}
+.navflexcontainer
+{
+	display:flex;
+	flex-direction:row;
+	text-align:center;
+	margin-bottom:2em;
+	background-color: #CEB2BD;
+}
+.navflexitem
+{
+	flex: 1;
+	padding: .5em;
+}
+.spaceflexitem
+{
+	flex: 3;
+}
+.socialflexitem
+{
+	flex: 0.1;
+	padding: .5em;
+}
+.maincontainer
+{
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 2em;
+	padding: 2em;
+	background-color: #8c576c;
+	border-style: ridge;
+    border-radius: .5em;
+	min-width: 20em;
+	width:90%;
+}
+.center
+{
+	text-align:center;
+}
+
+.imagespagemainflexcontainer
+{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 2em;
+	padding: 2em;
+	min-width: 20em;
+	width:90%;
+	justify-content: center;
+}
+.imagespagemainflexitem
+{
+	flex: 1;
+	margin: 0.5em;
+	padding:0.5em;
+	max-width: 20em;
+	background-color: #8c576c;
+	border-style: ridge;
+    border-radius: .5em;
+	
+}
+.mainflexcontainer
+{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 2em;
+	padding: 2em;
+	min-width: 20em;
+	width:90%;
+	justify-content: center;
+	min-width: 20em;
+	background-color: #8c576c;
+	border-style: ridge;
+    border-radius: .5em;
+}
+.contactIntro
+{
+	text-align:center;
+}
+.mainflexitem
+{
+	flex: 1;
+	margin: 0.5em;
+	padding:0.5em;
+
+}
+.tablecontainer
+{
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 2em;
+	padding: 2em;
+	background-color: #8c576c;
+	border-style: ridge;
+    border-radius: .5em;
+	min-width: 30em;
+	width:90%;
+}
+.footercontainer
+{
+	margin-top:1em;
+	padding:0em;
+    background-color: #8c576c;
+	text-align: center;
+}
